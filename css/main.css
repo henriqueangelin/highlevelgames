@@ -33,7 +33,7 @@ header > *{
 /*---------------------------------------------SECTION--------------------------------------------------*/
 section{
     background-color: white;
-    width: 69%;
+    width: 66.5%;
     margin-top: 20px;
     text-align: center;
     padding-right: 1%;
@@ -42,12 +42,12 @@ section{
 
 .jogospopulares{
     text-align: start;
-    margin-left: 15.5%;
+    margin-left: 10.5%;
     font-size: 15pt;
     font-weight: 700;
     padding: 2% 0%;
     border-bottom: 1px solid rgb(56, 55, 55);
-    width: 83%;
+    width: 88%;
 }
 
 .conteúdo{
@@ -61,28 +61,40 @@ section{
 .jogos{
     background-color: white;
     width: 250px;
-    height: 250px;
+    height: 236px;
     margin: 10px;
     border: 1px solid black;
     cursor:pointer;
+    font-family: 'Open Sans', sans-serif;
 }
 
+.jogos > p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
 /*---------------------------------------------ASIDE--------------------------------------------------*/
+#pesquisa-btn{
+    outline: none;
+    border: 1px solid rgb(175, 175, 175);
+    border-left: none;
+}
 
 aside{
     background-color: white;
-    width: 28%;
+    width: 30.5%;
     float:right;
     margin-top: 20px;
 }
 
-aside > input{
+#pesquisa{
     height: 30px;
-    width: 80%;
+    flex: 1 1 auto;
     border: 1px solid rgb(175, 175, 175);
     outline:none;
-    margin-left: 4%;
-    margin-top: 3%;
+    text-align: center;
 }
 
 .sugestões{
@@ -91,9 +103,63 @@ aside > input{
 }
 
 .sug{
-    background-color: rgb(48, 48, 48);
+    background-color: white;
     height: 100px;
     margin: 10px;
+    border: 1px solid black
+}
+
+.pesquisa-jogo{
+    display: flex;
+    padding: 3%;
+}
+
+aside > h3{
+    padding: 2% 0% 0% 3%;
+}
+
+.sqw2 > h3{
+    padding: 2%;
+}
+
+.sqw2{
+    padding-top: 15px;
+}
+
+#resident{
+    float:right;
+    padding: 1% 16% 0 0;
+    font-weight: 600;
+}
+
+#resident2{
+    float:right;
+    padding: 1% 42% 0 0;
+    font-weight: 600;
+}
+
+#resident3{
+    float:right;
+    padding: 1% 42% 0 0;
+    font-weight: 600;
+}
+
+#zelda{
+    float:right;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#mario64{
+    float:right;
+    padding: 1% 40% 0 0;
+    font-weight: 600;
+}
+
+#bomba{
+    float:right;
+    padding: 1% 30% 0 0;
+    font-weight: 600;
 }
 /*---------------------------------------------FOOTER--------------------------------------------------*/
 

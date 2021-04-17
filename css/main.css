@@ -59,10 +59,12 @@ section{
 }
 
 .jogos{
-    background-color: rgb(48, 48, 48);
+    background-color: white;
     width: 250px;
     height: 250px;
     margin: 10px;
+    border: 1px solid black;
+    cursor:pointer;
 }
 
 /*---------------------------------------------ASIDE--------------------------------------------------*/

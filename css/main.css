@@ -30,13 +30,14 @@ header > *{
     padding: 1% 2.5%
 }
 
-/*---------------------------------------------CONTEÚDO--------------------------------------------------*/
+/*---------------------------------------------SECTION--------------------------------------------------*/
 section{
     background-color: white;
-    width: 70%;
+    width: 69%;
     margin-top: 20px;
     text-align: center;
-    
+    padding-right: 1%;
+    float:left;
 }
 
 .jogospopulares{
@@ -64,6 +65,34 @@ section{
     margin: 10px;
 }
 
+/*---------------------------------------------ASIDE--------------------------------------------------*/
+
+aside{
+    background-color: white;
+    width: 28%;
+    float:right;
+    margin-top: 20px;
+}
+
+aside > input{
+    height: 30px;
+    width: 80%;
+    border: 1px solid rgb(175, 175, 175);
+    outline:none;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+.sugestões{
+    display:flex;
+    flex-flow: column wrap;
+}
+
+.sug{
+    background-color: rgb(48, 48, 48);
+    height: 100px;
+    margin: 10px;
+}
 /*---------------------------------------------FOOTER--------------------------------------------------*/
 
 footer{
@@ -71,4 +100,8 @@ footer{
     margin-top: 20px;
     text-align: center;
     padding: 1%;
+    float:center;
+    bottom: 0;
+    width:100%;
+    float:right;
 }
